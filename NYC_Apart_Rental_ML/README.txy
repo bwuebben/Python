@@ -1,0 +1,15 @@
+- See more at: https://blog.nycdatascience.com/student-works/predicting-interest-nyc-apartments-rent-guideline-landlords/#sthash.8wjcZStx.dpuf
+
+The objective is to predict the number of inquiries a new listing receives in NYC based on the dataset provided by RentHop. Identifying the level of interest using multiple features for each listing would assist RentHop in the attainment of the following business targets:
+
+1) Optimize the way RentHop handles fraud control
+2) Identify much easily potential listing quality issues
+3) Allow owners and agents to better understand renters’ needs and preferences.
+
+RentHop data comprises 49,352 observations for the training dataset and 74,659 for the official test dataset for rental listings in the city of New York for the period of April to June 2016. For each listing sample, there is a total number of 14 explanatory variables featuring multiple characteristics of the properties as presented below:
+
+3 float type variables: number of Bathrooms, Latitude and Longitude
+3 integer type variables: number of Bedrooms, listing_id and listing price
+6 string type variables: building_id, date listing created, description, display address, street address and manager_id,
+2 list type variables: features and photos.
+
